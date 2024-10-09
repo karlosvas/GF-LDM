@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio9</title>
+  </head>
+  <body>
+    <div>
+      <label form="nombre">Nombre: </label>
+      <input type="text" id="nombre" required />
+    </div>
+    <div>
+      <label for="postal">Codigo postal: </label>
+      <input type="text" id="postal" required />
+    </div>
+    <div>
+      <label for="url">URL:</label>
+      <input type="url" id="url" placeholder="Escribe la URL de tu página" required />
+    </div>
+    <div>
+      <label for="fecha">Fecha:</label>
+      <input type="date" />
+    </div>
+    <div>
+      <label for="tiempo">Tiempo:</label>
+      <select name="tiempo" id="tiempo">
+        <option value="">--:--</option>
+        <option value="1">1:00</option>
+      </select>
+    </div>
+    <div>
+      <label for="fecha">Fecha y hora de nacimiento:</label>
+      <input type="datetime-local" />
+    </div>
+    <div><label for="mes">Mes:</label><input type="month" id="mes" /></div>
+    <div>
+      <label for="semana">Semana</label>
+      <input type="week" id="semana" />
+    </div>
+    <div>
+      <label for="numero">Número (min -10, max 10):</label>
+      <input type="number" id="numero" min="-10" max="10" />
+    </div>
+    <div>
+      <label for="intervalo">Intervalo (min 0, max 10):</label>
+      <input type="range" id="intervalo" min="0" max="10" value="0" />
+    </div>
+    <div>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" />
+    </div>
+    <div>
+      <label for="Término de busuqeda">Término de busqueda</label>
+      <input type="search" id="search" />
+    </div>
+    <div>
+      <label for="color">Color Favorito</label>
+      <input type="color" id="color" />
+    </div>
+    <input type="submit" value="Enviar" />
+  </body>
+</html>
+<style>
+  body {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+</style>

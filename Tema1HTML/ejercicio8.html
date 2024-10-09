@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" />
+      <label for="sugerencias">Sugerencias</label>
+      <textarea name="" id=""></textarea>
+      <label for="edad">Edad</label>
+      <select name="edad" id="edad">
+        <option value="19">Menos de 20 años</option>
+        <option value="40">De 20 a 40 años</option>
+        <option value="60">De 40 a 60 años</option>
+        <option value="61">mas de 60 años</option>
+      </select>
+      <label for="edad2">Edad</label>
+      <select id="edad2" name="edad" multiple>
+        <option value="19">Menos de 20 años</option>
+        <option value="40">De 20 a 40 años</option>
+        <option value="60">De 40 a 60 años</option>
+        <option value="61">mas de 60 años</option>
+      </select>
+      <div>
+        <label>Sexo</label>
+        <div class="radio-group">
+          <input type="radio" name="sexo" value="hombre" id="masculino" />
+          <label for="masculino">masculino</label>
+        </div>
+        <div class="radio-group">
+          <input type="radio" name="sexo" value="mujer" id="femenino" />
+          <label for="femenino">femenino</label>
+        </div>
+      </div>
+      <div>
+        <label for="helados">Su helado de vainilla con</label>
+        <div class="checkbox-group">
+          <input id="helados" type="checkbox" name="chocolate" value="chocolate" />
+          <label for="helados">chocolate</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="fresa" value="fresa" />
+          <label for="fresa">fresa</label>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" name="biscuit" value="biscuit" />
+          <label for="biscuit">biscuit</label>
+        </div>
+      </div>
+      <div>
+        <input type="submit" value="Enviar consulta" />
+        <button><img src="./public/img/go.webp" alt="" style="width: 15px" /></button>
+      </div>
+      <div>
+        <input type="reset" value="Restablecer" />
+      </div>
+      <div>
+        <button><img src="./public/img/go.webp" alt="" style="width: 15px" />Sige</button>
+        <input type="text" name="archivo" id="" /><input id="examinar" type="submit" name="url" value="Examinar..." />
+      </div>
+      <fieldset>
+        <legend>Cordenadas</legend>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" />
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" />
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" />
+      </fieldset>
+      <fieldset>
+        <legend>Sugerencias</legend>
+        <select name="ejemplo" id="ejemplo">
+          <option value=""></option>
+        </select>
+      </fieldset>
+    </form>
+  </body>
+</html>
+<style>
+  body {
+    font-family: monospace;
+  }
+  form {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .checkbox-group,
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-group input,
+  .radio-group input {
+    margin-right: 5px;
+  }
+  #examinar {
+    margin-left: 10px;
+  }
+  fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    input {
+      margin: 0 10px;
+    }
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  textarea,
+  select {
+    width: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+  }
+</style>

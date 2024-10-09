@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" />
+  </head>
+  <body>
+    <h2>DESAROLLO DE APLICACIONES INFORMÁTICAS</h2>
+    <table>
+      <tr>
+        <th>HORARIO</th>
+        <th>LUNES</th>
+        <th>MARTES</th>
+        <th>MIÉRCOLES</th>
+        <th>JUEVES</th>
+        <th>VIERNES</th>
+      </tr>
+      <tr>
+        <th>8:15 / 9:05</th>
+        <td rowspan="3" class="sistemas">SISTEMAS</td>
+        <td rowspan="3" class="programacion">PROGRAMACIÓN</td>
+        <td rowspan="3" class="programacion">PROGRAMACIÓN</td>
+        <td rowspan="3" class="analisis">ANÁLISIS</td>
+        <td rowspan="3" class="analisis">ANÁLISIS</td>
+      </tr>
+      <tr>
+        <th>9:10 / 10:00</th>
+      </tr>
+      <tr>
+        <th>10:05 / 10:55</th>
+      </tr>
+      <tr>
+        <th>10:55 / 11:30</th>
+        <td colspan="5"><span>R</span><span>E</span><span>C</span><span>R</span><span>E</span><span>O<span></span></td>
+      </tr>
+      <tr>
+        <th>11:30 / 12:20</th>
+        <td rowspan="3" class="programacion">PROGRAMACIÓN</td>
+        <td rowspan="3"  class="sistemas">SISTEMAS</td>
+        <td rowspan="3" class="analisis">ANÁLISIS</td>
+        <td rowspan="1" class="analisis">ANÁLISIS</td>
+        <td rowspan="3" class="programacion">PROGRAMACIÓN</td>
+      </tr>
+      <tr>
+        <th>12:25 / 13:15</th> 
+        <td rowspan="2"  class="sistemas">SISTEMAS</td>
+    </tr>
+    <tr>
+        <th>13:20 / 14:10</th>
+    </tr>
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1354982067/es/vector/cielo-estrellado-fondo-nocturno-negro-con-estrella-espacio-de-galaxia-estrellada-textura-de.jpg?s=612x612&w=0&k=20&c=hXBS72dkHQbFKqu5MYZfnd41ZNxisgnvCVqffoXfqgs=");
+    font-family: "Comic Neue", cursive, sans-serif;
+    flex-direction: column;
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(255, 220, 154);
+        text-decoration: underline;
+    }
+    table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+      td,
+      tr,
+      th {
+        border: 1px solid black;
+        padding: 0 10px;
+        span {
+            padding: 0 35px;
+        }
+      }
+      tr:nth-child(5) {
+        background-color: rgb(60, 60, 212);
+      }
+      th{
+        background-color: rgb(46, 212, 82);
+      }
+      th:first-child{
+        background-color: rgb(255, 213, 135);
+      }
+      .sistemas{
+        background-color: rgb(250, 250, 164);
+      }
+      .programacion{
+        background-color: rgb(172, 229, 255);
+      }
+      .analisis{
+        background-color: rgb(192, 124, 255);
+      }
+    }
+  }
+</style>
