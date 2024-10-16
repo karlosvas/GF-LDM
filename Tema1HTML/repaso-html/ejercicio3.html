@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Web</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Datos</legend>
+      <form method="post">
+        <label for="opciones">Seleccione una opción:</label>
+        <select id="opciones" name="opciones" required>
+          <option value="opcion1">Opción 1</option>
+          <option value="opcion2">Opción 2</option>
+          <option value="opcion3">Opción 3</option>
+        </select>
+        <br /><br />
+
+        <label for="comentarios">Comentarios:</label><br />
+        <textarea id="comentarios" name="comentarios" cols="50" rows="20" style="padding: 10px"></textarea>
+        <br /><br />
+
+        <label>Elija una opción:</label><br />
+        <input type="radio" id="opcion1" name="grupoOpciones" value="opcion1" />
+        <label for="opcion1">Opción 1</label><br />
+        <input type="radio" id="opcion2" name="grupoOpciones" value="opcion2" />
+        <label for="opcion2">Opción 2</label><br />
+        <input type="radio" id="opcion3" name="grupoOpciones" value="opcion3" checked />
+        <label for="opcion3">Opción 3</label><br /><br />
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
+
+<style>
+  body {
+    font-family: monospace;
+  }
+</style>
