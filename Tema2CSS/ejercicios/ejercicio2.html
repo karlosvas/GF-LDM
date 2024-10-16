@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <p style="color: white;">Se estan utilizando tres etiquetas y prevalece el estilo como atributo osea en linea</p>
+</body>
+</html>
+
+<!-- Esta es una de las formas de hacerlo desde la etiqueta style -->
+<style>
+    body{
+        background-color: rgb(26, 26, 26);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        p{
+            /* No se aplica porque vale mas los estilos en linea */
+            color: green;
+            /* Esta si se aplica porque no entra en conflicto con niguna otra regla */
+            font-family: monospace;
+        }
+    }
+</style>
