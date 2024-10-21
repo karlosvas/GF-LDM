@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio6</title>
+</head>
+<body>
+    <ol>
+        <li>Hijo de ol</li>
+        <li>Hijo de ol</li>
+        <li>Hijo de ol</li>
+    </ol>
+    <p id="textoverde">Esto es un parrafo con el id textoverde</p>
+    <p style="color: var(--blue);">Otro parrafo en azul</p>
+    <div>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+    </div>
+    <a href="https://gregoriofer.com">Enlace</a>
+</body>
+</html>
+<style>
+    :root {
+        --blue: rgb(255, 196, 0);
+    }
+    ol li{
+        font-weight: bold;
+    }
+    #textoverde{
+        color: green;
+    }
+    .font-grande{
+        font-size: 2rem;
+    }
+    h1{
+        background-color: brown;
+    }
+    h2{
+        background-color: green;
+    }
+    h3{
+        background-color: var(--blue);
+    }
+    a{
+        font-weight: bold;
+    }
+    a:link{
+        color: seagreen;
+    }
+    a:visited{
+        color: var(--blue);
+    }
+</style>
