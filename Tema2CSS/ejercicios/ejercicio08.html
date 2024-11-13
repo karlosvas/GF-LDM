@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <div class="parte1">
+      <img
+        src="https://picsum.photos/200/300?grayscale"
+        alt="Lorem piscum en blanco y negro"
+        />
+        <p>
+          <span>Lorem</span> <span>ipsum</span> <span>dolor</span> sit amet
+          consectetur adipisicing elit. Nostrum incidunt cum distinctio molestiae
+          ducimus sint debitis corporis quos a nam doloribus illo commodi,
+          doloremque explicabo soluta tempora repudiandae laboriosam quisquam.
+        </p>
+      <p>
+        <span>Lorem</span> <span>ipsum</span> <span>dolor</span> sit amet
+        consectetur adipisicing elit. Nostrum incidunt cum distinctio molestiae
+        ducimus sint debitis corporis quos a nam doloribus illo commodi,
+        doloremque explicabo soluta tempora repudiandae laboriosam quisquam.
+      </p>
+      <p>
+        <span>Lorem</span> <span>ipsum</span> <span>dolor</span> sit amet
+        consectetur adipisicing elit. Nostrum incidunt cum distinctio molestiae
+        ducimus sint debitis corporis quos a nam doloribus illo commodi,
+        doloremque explicabo soluta tempora repudiandae laboriosam quisquam.
+      </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis non consequatur obcaecati hic veniam enim, deserunt fuga atque exercitationem totam laboriosam vitae ullam eius beatae doloribus consequuntur! Adipisci, cupiditate minima!
+        Mollitia praesentium ab dolores! Alias odit quisquam ducimus hic, rerum quis! Consequuntur officiis facere, ipsum tempore inventore maiores ullam rerum modi, consectetur ea nisi quae minus doloribus voluptas. Voluptatibus, laboriosam.
+        Facilis vitae quo id esse perspiciatis labore laudantium laborum tempore blanditiis eligendi eum, unde officiis voluptatibus impedit totam minima exercitationem cum deleniti ipsum saepe expedita! Inventore ratione officiis ad architecto?
+        Distinctio nam voluptatibus, maxime sequi repellendus corrupti eius aspernatur eos nesciunt aliquam voluptas libero inventore dolor, sunt ullam totam. Dolore ex minima blanditiis porro deleniti corporis tempora, assumenda commodi totam.
+        In maiores sapiente obcaecati labore eius voluptatem itaque, hic inventore vero quo amet. Facilis accusamus ullam, accusantium consequatur beatae atque, esse vitae sint veritatis incidunt ratione ad reiciendis vel delectus.
+        Sequi placeat voluptate eligendi facilis sed! Quae sapiente expedita maxime, minus dolore itaque at eveniet atque saepe voluptatibus aspernatur possimus numquam adipisci nostrum laborum, unde nesciunt perspiciatis doloribus cum delectus.
+        Quisquam odit ipsam a possimus quos aliquid animi, cum eaque explicabo dolores dolore repudiandae, beatae maiores. Error repellendus autem, adipisci corporis, cupiditate, laboriosam facere commodi sit id reiciendis aspernatur quos?
+        Eius facilis vitae itaque tempore accusamus est sint, iure saepe odit, harum placeat suscipit atque laborum eveniet iste. Architecto reiciendis tempore dicta, voluptatem nostrum placeat? Earum illum necessitatibus cum iste?
+        Consequatur dolorum ducimus quo cumque nulla non reprehenderit enim ad maiores facere. Doloremque iusto nobis esse laboriosam quaerat recusandae nihil illum exercitationem nemo, tempora rem praesentium. Quas saepe placeat ipsa.
+        Explicabo quam quidem, eos facere numquam suscipit, itaque nam corrupti ab consequuntur molestias at obcaecati! Quidem aliquam quisquam quasi accusamus eaque saepe, reiciendis perferendis labore cupiditate nihil vitae, fugiat quaerat?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        architecto, distinctio facilis est, omnis ipsa praesentium adipisci non,
+        neque eos libero? Commodi reiciendis accusamus at eos aperiam obcaecati
+        saepe qui.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        architecto, distinctio facilis est, omnis ipsa praesentium adipisci non,
+        neque <span>eos libero? <br />Commodi </span>reiciendis accusamus at eos
+        aperiam obcaecati saepe qui.
+      </p>
+    </div>
+    <div class="parte2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, soluta
+        perferendis molestias,dfdfdsfdsf explicabo nemo commodi repellat eaque, delectus
+        voluptatum adipisci unde libero natus! Incidunt dolorum temporibus id
+        ratione amet commodi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+        incidunt enim est ullam non modi sunt qui ea doloremque, nihil officiis
+        at quasi placeat maxime optio natus omnis quae obcaecati.
+      </p>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+  }
+  .parte1 {
+    p:not(:last-child) {
+      display: inline;
+    }
+    p:first-child {
+      margin: 50px;
+      border: 1px solid blue;
+    }
+    p:nth-child(2),
+    p:first-child span,
+    p:last-child span {
+      margin: 10px;
+      border: 1px dotted red;
+    }
+    img {
+      float: left;
+      padding: 10px;
+    }
+  }
+  .parte2 {
+    p:first-child {
+      width: 200px;
+      height: 200px;
+      float: right;
+    }
+    p:last-child {
+      clear: both;
+    }
+  }
+</style>

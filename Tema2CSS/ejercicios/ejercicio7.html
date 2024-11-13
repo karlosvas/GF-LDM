@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio7</title>
+</head>
+<body>
+    <h3>HOJA DE INSCRIPCIÓN</h3>
+ 
+    <fieldset>
+        <legend>Datos personales</legend>
+        <form action="">
+            <div>
+                <label for="apellidos"><span>A</span>pellidos</label>
+                <input type="text" id="apellidos">
+            </div>
+            <div>
+                <label for="nombre">N<span>o</span>mbre</label>
+                <input type="text" id="nombre">
+            </div>
+            <div>
+                <label for="dni"><span>D</span>NI</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="fecha"><span>N</span>acido en</label>
+                <input type="text" id="fecha">
+            </div>
+            <div>
+                <label for="provincia">Provinica</label>
+                <select name="" id="">
+                    <option value="4015">Valladolid</option>
+                    <option value="???">???</option>
+                </select>
+            </div>
+            <div>
+                <label for="fecha"><span>F</span>echa de nacimiento (dd/mm/aaaa)</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="domicilio">Domicilio</label>
+                <select name="" id="">
+                    <option value="???">ejeplo</option>
+                    <option value="?">Ejemplo</option>
+                    <option value="?">Ejemplo</option>
+                </select>
+                <input type="text">
+                <label for="postal"><span>C</span>ódigo postal</label>
+                <input type="text">
+                <label for="localidad">Localidad</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="provincia">Provinica</label>
+                <select name="" id="">
+                    <option value="4015">Valladolid</option>
+                    <option value="???">???</option>
+                </select>
+                <label for="telefono"></label>
+                <input type="text" id="telefono">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
+
+<style>
+    body{
+        background-color: #FAFAFA;
+        font-family: sans-serif;
+    }
+    legend{
+        margin: 0 5px;
+        background-color: #EEEEEE;
+        border-width: 3px;
+        background-color: white;
+        border-color: #EEEEEE;
+    }
+    h1{
+        text-align: center;
+        background-color: #EAEAEA;
+    }
+    form{
+        background-color: #EAEAEA;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    span{
+        color: red;
+    }
+    input{
+        margin: 10px 20px;
+        background-color: #EEEEEE;
+    }
+    div{
+        background-color: red;
+        display: inline-block;
+    }
+    label{
+        background-color: gray;
+    }
+    label span {
+        color: red;
+        text-decoration: underline;
+    }
+</style>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="fotograma1">Primer fotograma</div>
+    <div class="bloques">
+      <div class="index1 bl-div">1</div>
+      <div class="index2 bl-div">2</div>
+      <div class="index3 bl-div">3</div>
+      <div class="index4 bl-div">4</div>
+      <div class="index5 bl-div">5</div>
+      <div class="index6 bl-div">6</div>
+      <div class="index7 bl-div">7</div>
+      <div class="index8 bl-div">8</div>
+      <div class="index9 bl-div">9</div>
+      <div class="index10 bl-div">10</div>
+    </div>
+    <div class="fotograma2">Ultimo fotograma</div>
+  </body>
+</html>
+<style>
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+  }
+  .fotograma1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    border: solid 3px gray;
+    color: red;
+  }
+  .fotograma1:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .fotograma2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    border: solid 3px black;
+    color: red;
+  }
+  .fotograma2:hover {
+    background-color: black;
+  }
+  .bloques {
+    text-align: center;
+    color: rgb(255, 113, 137);
+    font-weight: bold;
+    width: 40%;
+    margin: auto;
+    height: 100vh;
+    font-size: 1.3rem;
+  }
+  .bl-div {
+    height: 10%;
+    border: dashed 5px black;
+  }
+  .bl-div:nth-child(odd) {
+    background-color: #777777;
+  }
+</style>
